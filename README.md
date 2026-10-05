@@ -253,8 +253,8 @@ If you find this code or our paper useful in your research, please cite:
 ```bibtex
 @article{cangio_mangrove_disturbance_2026,
   title={High-Precision Mangrove Canopy Disturbance Mapping in the Can Gio Biosphere Reserve via Frequency-Aware Prompted Foundation Models},
-  author={Hai, N. T. and collaborators},
-  journal={Remote Sensing of Environment},
+  author={Le,T.-H.  and collaborators},
+  journal={submitting},
   year={2026}
 }
 ```
