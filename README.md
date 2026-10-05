@@ -174,8 +174,8 @@ Stepwise architectural breakdown starting from the fine-tuned SAM baseline:
 
 Clone this repository and set up a Python virtual environment:
 ```bash
-git clone https://github.com/your-username/waveattn-sopseg.git
-cd waveattn-sopseg
+git clone https://github.com/haile493/CanGio-mangrove-waveattn-sopseg.git
+cd CanGio-mangrove-waveattn-sopseg
 
 # Create and activate environment
 python -m venv venv
@@ -246,6 +246,30 @@ python scripts/evaluate_models.py --model sopseg --source both
 
 ---
 
+## 📦 Data & Code Availability
+
+### Code Availability
+The complete implementation of WaveAttn SOPSeg—including wavelet progressive refinement modules, GLCAM attention, biophysical guidance mechanisms, model checkpoints, and end-to-end reproduction scripts—is publicly available in this GitHub repository:
+- **GitHub Repository**: [https://github.com/haile493/CanGio-mangrove-waveattn-sopseg](https://github.com/haile493/CanGio-mangrove-waveattn-sopseg)
+
+All quantitative tables (Tables 1–4) and high-resolution figures (Figures 2–6) can be replicated deterministically using the master CLI tool `python reproduce.py --all`.
+
+### Data Availability & Commercial Licensing Restrictions
+The multi-temporal remote sensing datasets supporting this study comprise satellite observations acquired over the Can Gio Mangrove Biosphere Reserve between 2006 and 2014:
+
+1. **Public Multispectral Collections**:
+   - Level-2 Surface Reflectance products from **Landsat-5 TM** and **Landsat-8 OLI/TIRS** are public-domain and can be accessed directly from the USGS Earth Resources Observation and Science (EROS) Center via [USGS EarthExplorer](https://earthexplorer.usgs.gov).
+
+2. **Commercial High-Resolution Satellite Imagery**:
+   - Certain auxiliary very-high-resolution (VHR) commercial satellite imagery and proprietary geospatial layers utilized for fine-scale photointerpretation, ground-truth boundary delineation, and spatial error diagnosis are subject to **strict commercial end-user licensing agreements (EULA) and non-redistribution restrictions**.
+   - Under these strict commercial terms, raw commercial imagery **cannot be publicly redistributed or hosted in open repositories**.
+
+3. **Academic & Research Access**:
+   - To support scientific reproducibility, derived pre-processed feature tensors, spatial validation coordinates, and disturbance masks are available for academic and non-commercial verification.
+   - Researchers wishing to access these derived resources may contact the corresponding author upon reasonable academic request under a formal **Data Transfer Agreement (DTA)**.
+
+---
+
 ## 📄 Citation
 
 If you find this code or our paper useful in your research, please cite:
@@ -253,7 +277,7 @@ If you find this code or our paper useful in your research, please cite:
 ```bibtex
 @article{cangio_mangrove_disturbance_2026,
   title={High-Precision Mangrove Canopy Disturbance Mapping in the Can Gio Biosphere Reserve via Frequency-Aware Prompted Foundation Models},
-  author={Le,T.-H.  and collaborators},
+  author={Le, T.-H. and collaborators},
   journal={submitting},
   year={2026}
 }
