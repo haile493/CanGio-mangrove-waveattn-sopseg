@@ -1,0 +1,130 @@
+{
+  "Weakly_Supervised_Superpixel_WSL": {
+    "paradigm": "Weakly Supervised Learning (Study 1)",
+    "supervision": "Unsupervised / Superpixel-guided",
+    "cut": {
+      "iou": 0.0196,
+      "dice": 0.0384,
+      "precision": 0.0196,
+      "recall": 1.0,
+      "biou": 0.012
+    },
+    "anhgoc": {
+      "iou": 0.0147,
+      "dice": 0.029,
+      "precision": 0.0147,
+      "recall": 1.0,
+      "biou": 0.009
+    }
+  },
+  "Fully_Supervised_UNet_ResNet34": {
+    "paradigm": "Fully Supervised Baseline",
+    "supervision": "Full Ground Truth Supervision",
+    "cut": {
+      "iou": 0.385,
+      "dice": 0.5559,
+      "precision": 0.4299,
+      "recall": 0.7865,
+      "biou": 0.281
+    },
+    "anhgoc": {
+      "iou": 0.3782,
+      "dice": 0.5488,
+      "precision": 0.4236,
+      "recall": 0.779,
+      "biou": 0.274
+    }
+  },
+  "SAM_LoRA": {
+    "paradigm": "Interactive Foundation Model (Study 2)",
+    "supervision": "LoRA Fine-Tuned + GT Prompt Points",
+    "cut": {
+      "iou": 0.5732,
+      "dice": 0.7287,
+      "precision": 0.8916,
+      "recall": 0.6161,
+      "biou": 0.435
+    },
+    "anhgoc": {
+      "iou": 0.5413,
+      "dice": 0.7024,
+      "precision": 0.898,
+      "recall": 0.5768,
+      "biou": 0.418
+    }
+  },
+  "SAM2_CD": {
+    "paradigm": "Bi-Temporal Video Foundation CD",
+    "supervision": "Memory-guided Change Detection",
+    "cut": {
+      "iou": 0.584,
+      "dice": 0.737,
+      "precision": 0.762,
+      "recall": 0.714,
+      "biou": 0.512
+    },
+    "anhgoc": {
+      "iou": 0.562,
+      "dice": 0.7196,
+      "precision": 0.748,
+      "recall": 0.693,
+      "biou": 0.495
+    }
+  },
+  "SOPSeg_Option1_WaveAttn_NBR": {
+    "paradigm": "Oriented Prompt + WaveFusion (Single-Date)",
+    "supervision": "Full Supervision + Biophysical NBR Guidance",
+    "cut": {
+      "iou": 0.6468,
+      "dice": 0.7855,
+      "precision": 0.6785,
+      "recall": 0.9326,
+      "biou": 0.9419
+    },
+    "anhgoc": {
+      "iou": 0.7576,
+      "dice": 0.8621,
+      "precision": 0.7987,
+      "recall": 0.9363,
+      "biou": 0.9634
+    }
+  },
+  "SOPSeg_Option2_Siamese_CD": {
+    "paradigm": "Bi-Temporal Siamese SOPSeg-CD",
+    "supervision": "Full Supervision + Temporal Differencing",
+    "cut": {
+      "iou": 0.5882,
+      "dice": 0.7407,
+      "precision": 0.7514,
+      "recall": 0.7303,
+      "biou": 0.6672
+    },
+    "anhgoc": {
+      "iou": 0.5207,
+      "dice": 0.6848,
+      "precision": 0.5545,
+      "recall": 0.8951,
+      "biou": 0.6956
+    }
+  },
+  "SinkSAM_Net_EffV2_UNet": {
+    "paradigm": "Knowledge-Driven Self-Supervised (Rafaeli et al. 2025)",
+    "supervision": "Zero Human Supervision (Closed Depressions + CWBJ + SAM Monte Carlo + Polsby-Popper)",
+    "cut": {
+      "iou": 0.0226,
+      "dice": 0.0442,
+      "precision": 0.0234,
+      "recall": 0.3895,
+      "biou": 0.0435,
+      "accuracy": 0.9026
+    },
+    "anhgoc": {
+      "iou": 0.0285,
+      "dice": 0.0555,
+      "precision": 0.0293,
+      "recall": 0.5112,
+      "biou": 0.0468,
+      "accuracy": 0.8992
+    }
+  }
+}

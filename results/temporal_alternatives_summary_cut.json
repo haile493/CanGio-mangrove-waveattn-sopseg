@@ -1,0 +1,122 @@
+[
+  {
+    "model": "Siamese UNet (resnet34)",
+    "option": "Option 2 (Bi-Temporal Siamese)",
+    "encoder": "resnet34",
+    "data_source": "cut",
+    "best_val_dice": 0.5643,
+    "final_metrics": {
+      "iou": 0.5444015441913507,
+      "dice": 0.70499999982375,
+      "precision": 0.5662650600135481,
+      "recall": 0.9337748338186922,
+      "accuracy": 0.9923257023868864,
+      "tp": 141,
+      "fp": 108,
+      "fn": 10,
+      "tn": 15117
+    },
+    "plot_path": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\plots\\eval_option2_siamese_resnet34_cut.png",
+    "checkpoint": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\models\\best_option2_siamese_resnet34_cut.pth"
+  },
+  {
+    "model": "Siamese UNet (resnet50)",
+    "option": "Option 2 (Bi-Temporal Siamese)",
+    "encoder": "resnet50",
+    "data_source": "cut",
+    "best_val_dice": 0.4851,
+    "final_metrics": {
+      "iou": 0.44179104464424146,
+      "dice": 0.6128364387965142,
+      "precision": 0.44578313239584844,
+      "recall": 0.9801324496820315,
+      "accuracy": 0.9878381893796316,
+      "tp": 148,
+      "fp": 184,
+      "fn": 3,
+      "tn": 15041
+    },
+    "plot_path": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\plots\\eval_option2_siamese_resnet50_cut.png",
+    "checkpoint": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\models\\best_option2_siamese_resnet50_cut.pth"
+  },
+  {
+    "model": "ConvLSTM (resnet34)",
+    "option": "Option 3 (ConvLSTM)",
+    "encoder": "resnet34",
+    "data_source": "cut",
+    "best_val_dice": 0.1891,
+    "final_metrics": {
+      "iou": 0.10499999997375,
+      "dice": 0.1900452488257816,
+      "precision": 0.10937499997151692,
+      "recall": 0.724137929785969,
+      "accuracy": 0.9767169614920869,
+      "tp": 42,
+      "fp": 342,
+      "fn": 16,
+      "tn": 14976
+    },
+    "plot_path": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\plots\\eval_option3_convlstm_resnet34_cut.png",
+    "checkpoint": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\models\\best_option3_convlstm_resnet34_cut.pth"
+  },
+  {
+    "model": "Temporal Attention (resnet34)",
+    "option": "Option 3 (Temporal Attention)",
+    "encoder": "resnet34",
+    "data_source": "cut",
+    "best_val_dice": 0.4609,
+    "final_metrics": {
+      "iou": 0.18214285707780611,
+      "dice": 0.3081570996047864,
+      "precision": 0.18681318674475705,
+      "recall": 0.8793103433115339,
+      "accuracy": 0.9851066597230417,
+      "tp": 51,
+      "fp": 222,
+      "fn": 7,
+      "tn": 15096
+    },
+    "plot_path": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\plots\\eval_option3_attention_resnet34_cut.png",
+    "checkpoint": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\models\\best_option3_attention_resnet34_cut.pth"
+  },
+  {
+    "model": "ConvLSTM (resnet50)",
+    "option": "Option 3 (ConvLSTM)",
+    "encoder": "resnet50",
+    "data_source": "cut",
+    "best_val_dice": 0.5525,
+    "final_metrics": {
+      "iou": 0.3690476186082767,
+      "dice": 0.5391304343137997,
+      "precision": 0.5438596481686673,
+      "recall": 0.5344827576991676,
+      "accuracy": 0.9965530697125614,
+      "tp": 31,
+      "fp": 26,
+      "fn": 27,
+      "tn": 15292
+    },
+    "plot_path": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\plots\\eval_option3_convlstm_resnet50_cut.png",
+    "checkpoint": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\models\\best_option3_convlstm_resnet50_cut.pth"
+  },
+  {
+    "model": "Temporal Attention (resnet50)",
+    "option": "Option 3 (Temporal Attention)",
+    "encoder": "resnet50",
+    "data_source": "cut",
+    "best_val_dice": 0.4545,
+    "final_metrics": {
+      "iou": 0.3269230766087278,
+      "dice": 0.492753622831338,
+      "precision": 0.42499999946875006,
+      "recall": 0.5862068955410226,
+      "accuracy": 0.9954474505658464,
+      "tp": 34,
+      "fp": 46,
+      "fn": 24,
+      "tn": 15272
+    },
+    "plot_path": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\plots\\eval_option3_attention_resnet50_cut.png",
+    "checkpoint": "C:\\Users\\hai49\\.gemini\\antigravity\\scratch\\cangio\\results\\models\\best_option3_attention_resnet50_cut.pth"
+  }
+]

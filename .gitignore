@@ -1,0 +1,85 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+shared_pytorch_env/
+
+# IDE / Editor configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.ipynb_checkpoints
+
+# Logs & temp files
+*.log
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Heavy datasets and raw imagery (download instructions provided in README)
+data/
+*.tif
+*.TIF
+*.npy
+*.npz
+
+# Large model checkpoints (hosted externally via Zenodo / Google Drive releases)
+results/models/
+*.pth
+*.pt
+*.onnx
+
+# Raw spatial predictions
+results/predictions/
+
+# External cloned repositories
+external_repos/
+
+# Reference PDF literature collection
+ref/
+ref_*.txt
+
+# Manuscript Word documents
+*.docx
+*.doc
+
+# Scratch scripts & temporary notes
+cell10_code.py
+Link.txt
+results/*anhgoc*
+results/plots/*anhgoc*
+results/plots/*option*
+scripts/plot_cut_vs_anhgoc.py

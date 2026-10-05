@@ -1,0 +1,32 @@
+[
+  {
+    "Method": "Fully-Supervised U-Net",
+    "Supervision": "Full Mask (100% pixels)",
+    "Annotation Cost": "Dense Polygons (High)",
+    "IoU": 0.378181818147438,
+    "Dice/F1": 0.5488126648714503,
+    "Precision": 0.4236252545393457,
+    "Recall": 0.7790262170825795,
+    "Accuracy": 0.9925858480738461
+  },
+  {
+    "Method": "Superpixel WSL (Study 1)",
+    "Supervision": "50 Query Points + SLIC Superpixels",
+    "Annotation Cost": "50 Clicks / Scene (~95% cheaper)",
+    "IoU": 0.014719664810588456,
+    "Dice/F1": 0.029012278604723968,
+    "Precision": 0.014719664810588456,
+    "Recall": 0.9999999998127341,
+    "Accuracy": 0.612556364897012
+  },
+  {
+    "Method": "SAM + LoRA (Study 2)",
+    "Supervision": "Prompt-based (Centroid + Borders)",
+    "Annotation Cost": "Interactive Foundation Model",
+    "IoU": 0.5413005271456414,
+    "Dice/F1": 0.7023945267158045,
+    "Precision": 0.8979591834116737,
+    "Recall": 0.5767790261092175,
+    "Accuracy": 0.9971709157117182
+  }
+]
