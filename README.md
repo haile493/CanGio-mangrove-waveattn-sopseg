@@ -276,7 +276,7 @@ If you find this code or our paper useful in your research, please cite:
 
 ```bibtex
 @article{cangio_mangrove_disturbance_2026,
-  title={High-Precision Mangrove Canopy Disturbance Mapping in the Can Gio Biosphere Reserve via Frequency-Aware Prompted Foundation Models},
+  title={Wavelet-Refined Oriented Prompt Segmentation with Biophysical Guidance for Mangrove Canopy Disturbance Mapping in Can Gio Biosphere Reserve},
   author={Le, T.-H. and collaborators},
   journal={submitting},
   year={2026}
